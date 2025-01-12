@@ -3,11 +3,14 @@ import { Facebook, Instagram, Twitter } from "lucide-react";
 
 const Footer = () => {
   return (
-    <footer id="footer" className="flex flex-col gap-6 p-20">
+    <footer
+      id="footer"
+      className="flex flex-col gap-6 p-20 border-4 text-center"
+    >
       <div id="get-in-touch-container">
         <h3 className="font-bold text-2xl">Get in Touch</h3>
         <p>Quick borwn foxxxxx</p>
-        <div className="flex gap-4">
+        <div className="flex gap-4 flex-row justify-center">
           <Facebook />
           <Instagram />
           <Twitter />
