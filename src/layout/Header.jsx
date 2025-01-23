@@ -40,8 +40,6 @@ const Header = () => {
           </a>
         </nav>
       </div>
-      {/* slider */}
-      <ImageSlider />
     </header>
   );
 };
