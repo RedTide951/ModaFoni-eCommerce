@@ -4,11 +4,17 @@ export default {
   theme: {
     extend: {
       colors: {
-        primary: "#737373",
-        secondary: "#737373",
-        textColor: "#252B42",
-        secondaryTextColor: "#737373",
-        successColor: "#2DC071",
+        primaryColor: "#1ea7f3",
+        secondaryColor1: "#268570",
+        secondaryColor2: "#3d3f3c",
+        darkBgColor: "#252b44",
+        lightBgColor: "#fcfcfc",
+        successColor: "#2ebb6b",
+        alerColor: "#e17d45",
+        dangerColor: "#c3454e",
+        hoverColor: "#287ec4",
+        disabledElementColor: "#93c0f0",
+        mutedColor: "#bdbdbd",
       },
       fontFamily: {
         sans: ["Poppins", "sans-serif"], // Custom default sans font
